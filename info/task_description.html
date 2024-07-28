@@ -1,22 +1,22 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Verificação de Aprendizagem:</strong> Avalie sua compreensão. Tente resolver sem consultar materiais, usando apenas seu conhecimento. Identifique áreas que precisam de revisão.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    João, um engenheiro de automação residencial, está desenvolvendo um sistema inteligente para gerenciar a iluminação de uma casa. Ele quer que as luzes se acendam automaticamente ao anoitecer se alguém estiver em casa. Escreva uma função que determine se as luzes devem ser acesas com base nas condições fornecidas. As luzes devem ser acesas se estiver escuro e alguém estiver em casa.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> escuro (booleano), alguem_em_casa (booleano).
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma string: "Luzes Acesas" ou "Luzes Apagadas".
 </p>
 
 
@@ -32,11 +32,12 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    sistema_luzes(True, True) >> "Luzes Acesas"
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Operações Lógicas e Condicionais Avançadas</li>
+
 </ul>

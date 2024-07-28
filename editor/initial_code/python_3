@@ -1,1 +1,13 @@
-{{CODIGO INICIAL}}
+def sistema_luzes(escuro, alguem_em_casa):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(sistema_luzes(True, True))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert sistema_luzes(True, True) == "Luzes Acesas"
+assert sistema_luzes(False, True) == "Luzes Apagadas"
+assert sistema_luzes(True, False) == "Luzes Apagadas"
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
